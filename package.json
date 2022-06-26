@@ -4,6 +4,9 @@
   "description": "Svelte animstion library baded on the React library framer-motion.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
+  "exports": {
+    "./package.json": "./package.json"
+  },
   "svelte": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
